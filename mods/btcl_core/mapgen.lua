@@ -215,3 +215,5 @@ minetest.register_decoration({
 	flags = "place_center_x, place_center_z",
 	rotation = "random",
 })
+
+
