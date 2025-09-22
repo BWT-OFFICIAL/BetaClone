@@ -1,11 +1,34 @@
-minetest.register_node("openpocket_core:wooden_planks", {
+minetest.register_node("openpocket_core:planks_1", {
 	description = ("Wooden Planks"),
 	tiles = {"default_wood.png"},
 	is_ground_content = false,
-	groups = {choppy = 1, spawny = 1},
---	sounds = default.node_sound_wood_defaults(),
+	groups = {choppy = 1, spawny = 1, planks = 1},
+--	sounds = openpocket_core.node_sound_wood_defaults(),
 })
 
+minetest.register_node("openpocket_core:planks_2", {
+	description = ("Wooden Planks"),
+	tiles = {"default_pine_wood.png"},
+	is_ground_content = false,
+	groups = {choppy = 1, spawny = 1, planks = 1},
+--	sounds = openpocket_core.node_sound_wood_defaults(),
+})
+
+minetest.register_node("openpocket_core:planks_3", {
+	description = ("Wooden Planks"),
+	tiles = {"default_aspen_wood.png"},
+	is_ground_content = false,
+	groups = {choppy = 1, spawny = 1, planks = 1},
+--	sounds = openpocket_core.node_sound_wood_defaults(),
+})
+
+minetest.register_node("openpocket_core:planks_4", {
+	description = ("Wooden Planks"),
+	tiles = {"default_jungle_wood.png"},
+	is_ground_content = false,
+	groups = {choppy = 1, spawny = 1, planks = 1},
+--	sounds = openpocket_core.node_sound_wood_defaults(),
+})
 
 -- Trees are unnamed ingame for authenticity.
 
@@ -15,7 +38,7 @@ minetest.register_node("openpocket_core:wood_1", {
 	description = ("Wood"),
 	tiles = {"default_tree_top.png", "default_tree_top.png", "default_tree.png"},
 	groups = {choppy = 1, spawny = 1}, -- Cracky Values are Reversed.
---	sounds = default.node_sound_dirt_defaults(),
+--	sounds = openpocket_core.node_sound_wood_defaults(),
 })
 
 minetest.register_node("openpocket_core:leaves_1", {
@@ -36,7 +59,7 @@ minetest.register_node("openpocket_core:wood_2", {
 	description = ("Wood"),
 	tiles = {"default_tree_top.png", "default_tree_top.png", "default_pine_tree.png"},
 	groups = {choppy = 1, spawny = 1}, -- Cracky Values are Reversed.
---	sounds = default.node_sound_dirt_defaults(),
+--	sounds = openpocket_core.node_sound_wood_defaults(),
 })
 
 minetest.register_node("openpocket_core:leaves_2", {
@@ -55,7 +78,7 @@ minetest.register_node("openpocket_core:wood_3", {
 	description = ("Wood"),
 	tiles = {"default_tree_top.png", "default_tree_top.png", "default_aspen_tree.png"},
 	groups = {choppy = 1, spawny = 1}, -- Cracky Values are Reversed.
---	sounds = default.node_sound_dirt_defaults(),
+--	sounds = openpocket_core.node_sound_wood_defaults(),
 })
 
 minetest.register_node("openpocket_core:leaves_3", {

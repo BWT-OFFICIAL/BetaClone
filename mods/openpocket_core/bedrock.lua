@@ -7,7 +7,7 @@ openpocket_core.bedrock_node = {name = "openpocket_core:bedrock"} -- This is the
 
 minetest.register_node("openpocket_core:bedrock", {
 	description = ("Bedrock"),
-	tiles = {"nextgen_bedrock.png"},
+	tiles = {"mcl_core_bedrock.png"},
 	groups = {indestructible=1, not_in_creative_inventory=1, },
 	is_ground_content = false,
 })
@@ -36,8 +36,8 @@ end)
 minetest.register_ore({
 	ore_type = "scatter",
 	ore = "openpocket_core:bedrock",
-	wherein = "openpocket_core:stone, air",
-	clust_scarcity = 3*3*3,
+	wherein = {"openpocket_core:stone", "air"},
+	clust_scarcity = 2*2*2,
 	clust_num_ores = 5,
 	clust_size = 2,
 	height_min = -64,
