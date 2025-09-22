@@ -5,10 +5,11 @@ minetest.register_node("openpocket_core:tall_grass", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
+	is_ground_content = false,
 	description = ("Grass"),
 	tiles = {"default_grass_5.png"},		
         inventory_image = "default_grass_5.png",
-	groups = {instant = 1}, -- Cracky Values are Reversed.
+	groups = {dig_immediate = 1}, -- Cracky Values are Reversed.
 --	sounds = default.node_sound_stone_defaults(),
 })
 
@@ -17,10 +18,11 @@ minetest.register_node("openpocket_core:flower_1", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
+	is_ground_content = false,
 	description = ("Flower"),
 	tiles = {"openpocket_flower_1.png"},		
         inventory_image = "openpocket_flower_1.png",
-	groups = {instant = 1}, -- Cracky Values are Reversed.
+	groups = {dig_immediate = 1}, -- Cracky Values are Reversed.
 --	sounds = default.node_sound_stone_defaults(),
 })
 
@@ -29,10 +31,11 @@ minetest.register_node("openpocket_core:flower_2", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
+	is_ground_content = false,
 	description = ("Flower"),
 	tiles = {"openpocket_flower_2.png"},		
         inventory_image = "openpocket_flower_2.png",
-	groups = {instant = 1}, -- Cracky Values are Reversed.
+	groups = {dig_immediate = 1}, -- Cracky Values are Reversed.
 --	sounds = default.node_sound_stone_defaults(),
 })
 
@@ -41,10 +44,11 @@ minetest.register_node("openpocket_core:mushroom_red", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
+	is_ground_content = false,
 	description = ("Red Mushroom"),
 	tiles = {"flowers_mushroom_red.png"},		
         inventory_image = "flowers_mushroom_red.png",
-	groups = {instant = 1}, -- Cracky Values are Reversed.
+	groups = {dig_immediate = 1}, -- Cracky Values are Reversed.
 --	sounds = default.node_sound_stone_defaults(),
 })
 
@@ -53,10 +57,11 @@ minetest.register_node("openpocket_core:mushroom_brown", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
+	is_ground_content = false,
 	description = ("Brown Mushroom"),
 	tiles = {"flowers_mushroom_brown.png"},		
         inventory_image = "flowers_mushroom_brown.png",
-	groups = {instant = 1}, -- Cracky Values are Reversed.
+	groups = {dig_immediate = 1}, -- Cracky Values are Reversed.
 --	sounds = default.node_sound_stone_defaults(),
 })
 

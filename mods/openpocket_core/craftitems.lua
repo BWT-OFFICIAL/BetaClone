@@ -27,8 +27,3 @@ minetest.register_craftitem("openpocket_core:apple", {
 	description = ("Apple"),
 	inventory_image = "default_apple.png",
 })
-
-minetest.register_craftitem("openpocket_core:stick", {
-	description = ("Stick"),
-	inventory_image = "default_blueberries.png",
-})

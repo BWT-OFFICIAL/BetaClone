@@ -162,6 +162,7 @@ minetest.register_decoration({
 		spread = {x = 250, y = 250, z = 250},
 		seed = 2,
 		octaves = 3,
+                fill_ratio = 0.001,
 		persist = 0.65
 	},
 	biomes = {"rainforest", "forest", "seasonal_forest"},
@@ -184,6 +185,7 @@ minetest.register_decoration({
 		spread = {x = 250, y = 250, z = 250},
 		seed = 3,
 		octaves = 3,
+                fill_ratio = 0.001,
 		persist = 0.65
 	},
 	biomes = {"rainforest", "forest", "seasonal_forest"},

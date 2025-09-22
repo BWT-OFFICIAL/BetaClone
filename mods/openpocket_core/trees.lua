@@ -38,6 +38,7 @@ minetest.register_node("openpocket_core:wood_1", {
 	description = ("Wood"),
 	tiles = {"default_tree_top.png", "default_tree_top.png", "default_tree.png"},
 	groups = {choppy = 1, spawny = 1}, -- Cracky Values are Reversed.
+	is_ground_content = true,
 --	sounds = openpocket_core.node_sound_wood_defaults(),
 })
 
@@ -59,6 +60,8 @@ minetest.register_node("openpocket_core:wood_2", {
 	description = ("Wood"),
 	tiles = {"default_tree_top.png", "default_tree_top.png", "default_pine_tree.png"},
 	groups = {choppy = 1, spawny = 1}, -- Cracky Values are Reversed.
+	is_ground_content = true,
+
 --	sounds = openpocket_core.node_sound_wood_defaults(),
 })
 
@@ -78,6 +81,7 @@ minetest.register_node("openpocket_core:wood_3", {
 	description = ("Wood"),
 	tiles = {"default_tree_top.png", "default_tree_top.png", "default_aspen_tree.png"},
 	groups = {choppy = 1, spawny = 1}, -- Cracky Values are Reversed.
+	is_ground_content = true,
 --	sounds = openpocket_core.node_sound_wood_defaults(),
 })
 

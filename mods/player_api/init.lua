@@ -24,4 +24,21 @@ player_api.register_model("character.b3d", {
 -- Update appearance when the player joins
 minetest.register_on_joinplayer(function(player)
 	player_api.set_model(player, "character.b3d")
+        player:set_sky({
+		base_color = "#3064c4",
+		type = "regular",
+		sky_color = {
+			day_sky = "#3064c4",
+			day_horizon = "#6ab8e1",
+
+			dawn_sky = "2a3fff",
+			dawn_horizon = "2a3fff",
+
+			night_sky = "2a3fff",
+			night_horizon = "2a3fff",
+
+			indoors = "#0d3e55",
+		}
+	})
+
 end)

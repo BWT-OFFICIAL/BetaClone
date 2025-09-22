@@ -53,7 +53,7 @@ minetest.register_node("openpocket_core:clay", {
 
 minetest.register_node("openpocket_core:grass", {
 	description = ("Grass"),
-	tiles = {"default_grass.png", "default_dirt", "default_dirt.png^default_grass_side.png"},
+	tiles = {"default_grass.png", "default_dirt.png", "default_dirt.png^default_grass_side.png"},
 	is_ground_content = false,
 	groups = {crumbly = 1, spawny = 1},
 --	sounds = openpocket_core.node_sound_dirt_defaults(),
