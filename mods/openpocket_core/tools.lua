@@ -243,7 +243,7 @@ minetest.register_tool("openpocket_core:diamond_axe", {
 
 local craft_ingreds = {
 	wood = "group:planks",
-	stone = "openpocket_core:stone",
+	stone = "openpocket_core:cobblestone",
 	iron = "openpocket_core:iron_ingot",
 	gold = "openpocket_core:gold_ingot",
 	diamond = "openpocket_core:diamond"
@@ -251,7 +251,7 @@ local craft_ingreds = {
 
 for name, mat in pairs(craft_ingreds) do
 	minetest.register_craft({
-		output = "openpocket_core:" .. name .. "_pick",
+		output = "openpocket_core:" .. name .. "_pickaxe",
 		recipe = {
 			{mat, mat, mat},
 			{"", "openpocket_core:stick", ""},
